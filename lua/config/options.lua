@@ -6,4 +6,4 @@
 local opts = { noremap = true, silent = true }
 
 -- Basic --
-vim.opt.guifont = { "ComicShannsMono Nerd Font", ":h14" }
+vim.opt.guifont = { "ComicShannsMono Nerd Font", ":h16" }

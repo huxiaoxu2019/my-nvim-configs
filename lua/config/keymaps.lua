@@ -19,7 +19,7 @@ end, { noremap = true, silent = true, desc = "Search selected text" })
 
 -- Snacks --
 local Snacks = require("snacks")
-vim.keymap.set('n', '<C-h>', function()
+vim.keymap.set("n", "<C-h>", function()
     Snacks.picker.buffers()
 end, { desc = "Show Buffers (Snacks)" })
 
@@ -33,5 +33,3 @@ vim.keymap.set("n", "<leader>yl", function()
     vim.fn.setreg("+", path_line)
     print("Copied: " .. path_line)
 end, { desc = "Copy file path with line number" })
-
--- NVim Tree --
